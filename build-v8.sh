@@ -48,6 +48,7 @@ build_args=`cat <<EOF
   v8_enable_gdbjit=false
   v8_enable_i18n_support=false
   v8_enable_test_features=false
+  v8_enable_pointer_compression=true
   v8_extra_library_files=[]
   v8_monolithic=true
   v8_untrusted_code_mitigations=false
