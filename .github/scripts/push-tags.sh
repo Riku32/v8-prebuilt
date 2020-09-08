@@ -8,11 +8,11 @@ check_for_tag() {
     -s -o /dev/null \
     -w "%{http_code}" \
     -H "Authorization: token $GITHUB_TOKEN" \
-    "https://api.github.com/repos/BlazerodJS/v8-prebuilt/git/ref/tags/$1"
+    "https://api.github.com/repos/SwitchbladeBot/v8-prebuilt/git/ref/tags/$1"
 }
 
 create_tag() {
-  curl -s -X POST https://api.github.com/repos/BlazerodJS/v8-prebuilt/git/refs \
+  curl -s -X POST https://api.github.com/repos/SwitchbladeBot/v8-prebuilt/git/refs \
   -H "Authorization: token $GITHUB_TOKEN" \
   -d @- <<EOF
 {

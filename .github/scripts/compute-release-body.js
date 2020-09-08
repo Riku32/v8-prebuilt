@@ -12,8 +12,8 @@ const version = process.argv[2].replace("refs/tags/", "");
 
 const body = `Packages for V8 ${version}:
 
-- [v8-${version}-darwin.tar.gz](https://github.com/BlazerodJS/v8-prebuilt/releases/download/${version}/v8-${version}-darwin.tar.gz)
-- [v8-${version}-linux.tar.gz](https://github.com/BlazerodJS/v8-prebuilt/releases/download/${version}/v8-${version}-linux.tar.gz)
+- [v8-${version}-darwin.tar.gz](https://github.com/SwitchbladeBot/v8-prebuilt/releases/download/${version}/v8-${version}-darwin.tar.gz)
+- [v8-${version}-linux.tar.gz](https://github.com/SwitchbladeBot/v8-prebuilt/releases/download/${version}/v8-${version}-linux.tar.gz)
 
 `.trim();
 
