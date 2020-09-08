@@ -13,4 +13,4 @@ jobs:
       - name: Push new tags
         run: ./.github/scripts/push-tags.sh
         env:
-          GITHUB_TOKEN: "${{ secrets.RELEASE_TOKEN }}"
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
